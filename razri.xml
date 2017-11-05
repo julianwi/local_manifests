@@ -8,7 +8,6 @@
 
   <project path="kernel/motorola/smi" name="HazouPH/android_kernel_motorola_smi" revision="LOS-14"/>
 
-  <remove-project name="LineageOS/android_external_tinyalsa" />
   <remove-project name="platform/external/libdrm" />
   <remove-project name="platform/hardware/intel/common/libstagefrighthw" />
   <remove-project name="platform/hardware/intel/common/wrs_omxil_core" />
