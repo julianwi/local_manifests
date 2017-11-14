@@ -2,11 +2,13 @@
 <manifest>
   <project path="device/motorola/smi" name="HazouPH/android_device_motorola_smi" revision="LOS-14.1"/>
 
+  <project path="device/motorola/smi-patches" name="HazouPH/smi_patches" revision="LOS-14.1"/>
+
   <project path="vendor/motorola/smi" name="HazouPH/android_vendor_motorola_smi" revision="LOS-14"/>
 
   <project path="hardware/ti/wlan-intel" name="HazouPH/android_hardware_ti_wlan" revision="LOS-14"/>
 
-  <project path="kernel/motorola/smi" name="HazouPH/android_kernel_motorola_smi" revision="LOS-14"/>
+  <project path="kernel/motorola/smi" name="HazouPH/android_kernel_motorola_smi" revision="LOS-14.1"/>
 
   <remove-project name="LineageOS/android_hardware_intel_common_libmix" />
   <remove-project name="LineageOS/android_hardware_intel_common_omx-components" />
@@ -20,5 +22,5 @@
   <project name="LineageOS/android_external_stlport" path="external/stlport" />
 
   <!-- Art Extension -->
-  <project name="android-art-intel/Nougat" path="art-extension" />
+  <project name="android-art-intel/Nougat" path="art-extension" revision="master"/>
 </manifest>
