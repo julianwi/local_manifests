@@ -26,4 +26,7 @@
 
   <!-- TWRP support -->
   <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" revision="android-8.0" />
+
+  <!-- Doze Settings -->
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1"/>
 </manifest>
