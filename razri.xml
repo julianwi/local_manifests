@@ -6,9 +6,9 @@
 
   <project path="vendor/motorola/smi" name="HazouPH/android_vendor_motorola_smi" revision="LOS-14"/>
 
-  <project path="hardware/ti/wlan-intel" name="HazouPH/android_hardware_ti_wlan" revision="LOS-14"/>
+  <project path="hardware/ti/wlan-intel" name="HazouPH/android_hardware_ti_wlan" revision="master"/>
 
-  <project path="kernel/motorola/smi" name="HazouPH/android_kernel_motorola_smi" revision="LOS-14.1"/>
+  <project path="kernel/motorola/smi" name="HazouPH/android_kernel_motorola_smi" revision="master"/>
 
   <remove-project name="LineageOS/android_hardware_intel_common_libmix" />
   <remove-project name="LineageOS/android_hardware_intel_common_omx-components" />
