@@ -25,7 +25,7 @@
   <project path="art-extension" name="android-art-intel/Nougat" revision="master"/>
 
   <!-- TWRP support -->
-  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" revision="android-8.0" />
+  <project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" revision="android-8.1" />
 
   <!-- Doze Settings -->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="cm-14.1"/>
