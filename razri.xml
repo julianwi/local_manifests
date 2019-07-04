@@ -11,9 +11,9 @@
 
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" revision="lineage-16.0"/>
 
-  <project path="kernel/motorola/smi" name="HazouPH/android_kernel_motorola_smi" revision="master"/>
+  <project path="kernel/motorola/smi" name="julianwi/android_kernel_motorola_smi" revision="master"/>
 
-  <remove-project name="platform/hardware/intel/common/libmix" />
+  <remove-project name="LineageOS/android_hardware_intel_common_libmix" />
   <remove-project name="platform/hardware/intel/common/omx-components" />
   <remove-project name="platform/hardware/intel/img/psb_video" />
   <remove-project name="platform/hardware/intel/common/libwsbm" />
