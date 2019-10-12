@@ -28,6 +28,9 @@
   <project path="hardware/intel/common/libwsbm" name="LineageOS/android_hardware_intel_common_libwsbm" revision="cm-14.1" />
   <project path="hardware/intel/common/libva" name="LineageOS/android_hardware_intel_common_libva" revision="cm-14.1" />
 
+  <!-- Art Extension -->
+  <project path="vendor/intel/art-extension" name="projectceladon/vendor_intel_art-extension" revision="master"/>
+
   <!-- Doze Settings -->
   <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" revision="lineage-16.0"/>
 </manifest>
